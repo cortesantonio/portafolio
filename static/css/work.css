@@ -59,6 +59,33 @@
     margin-top: 20px;
 }
 
+.card .descripcion {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: .8rem;
+    width: 60%;
+    margin: 10px auto 10px;
+}
+
+.card .skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 10px auto 10px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.card .skills .cardskill {
+    padding: 5px;
+    background-color: rgba(255, 72, 0, 0.596);
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+
 .card .categoria {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 81, 0);
@@ -90,5 +117,5 @@
         font-weight: 100;
         margin-top: 10px;
     }
-    
+
 }
